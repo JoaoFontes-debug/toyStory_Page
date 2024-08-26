@@ -1,0 +1,31 @@
+#footer{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #dfc0c0;
+    color: white;
+    text-align: center;
+}
+
+#footerNav{
+    list-style-type: none;
+    display: flex; 
+    padding: 1px;
+  
+}
+
+#menu-footer> li>a:hover{
+    color:#ffffff;
+
+}
+
+#menu-footer a {
+    color: rgb(27, 13, 13);
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px;
+
+}

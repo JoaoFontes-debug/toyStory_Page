@@ -1,0 +1,153 @@
+/* *{
+    border: solid 1px salmon;
+} */
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    background-color: #80BFEB;
+    width: 1080px;
+    height: auto;
+    padding-bottom: 65px;
+    
+}
+
+#he_background{
+    background-color: #ffffff;
+    height: auto;
+    padding-bottom: 45px;
+}
+
+.header_class{
+    height: auto ;
+    position: relative;
+    display: flex;
+    justify-content: center; 
+
+    
+}
+
+
+.header_class > #header_background{
+    width: 1080px;
+    position:absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: flex-start;
+
+
+}
+
+
+#header_woody{
+    z-index: 20;
+    position: absolute;
+    width: 1080px;
+    min-width: auto;  
+    
+    
+}
+
+ 
+#header_woody>#woody{
+    width: 100%;
+    max-width: 220px;    
+    margin-left: 50px;
+}
+
+#logo{
+    width: 280px;
+    rotate: -10deg;
+    margin-top: 80px ;
+    margin-right: 250px;
+    z-index: 8;
+    position: relative;
+    box-shadow: 25px 25px 45px 5px #3a3939;
+
+}
+
+#sinopse{
+    float: left;
+    
+}
+
+#title_sinopse{
+    width: 280px;
+    margin-left: 40px;
+    margin-top: 35px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    background-color: #dfc0c0;
+    margin-left: 572px;
+    width: 500px;
+    padding: 2px;
+    margin-top:35px;  
+   
+
+}
+
+#menu-navbar{
+    list-style-type: none;
+    display: flex; 
+    padding: 1px;
+  
+}
+
+#menu-navbar> li>a:hover{
+    color:#ffffff;
+
+}
+
+#menu-navbar a {
+    color: rgb(27, 13, 13);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 8px;
+
+}
+
+#text-sinopse{
+    clear: left;
+    width: 350px;
+    margin-left: 40px;
+    margin-top: 50px;
+    font-size: 20px;
+    text-align: justify;
+    border-radius: 5%;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: 5px 5px 10px 1px #3a3939;
+    float: left;
+    
+
+}
+
+#trailer{
+    width: 500px;
+    margin-left: 500px;
+    justify-content:center ;
+    
+}
+
+#title-trailer{
+    width: 180px;
+    margin-top: 100px;
+    margin-left: 150px;
+    
+}
+
+#trailer-video{
+    margin-top: 25px;
+    border-radius: 3%;
+}
